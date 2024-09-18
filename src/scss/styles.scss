@@ -28,6 +28,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #919191;
   background-image: url(../img/hero/hero-dark-bg.jpg);
