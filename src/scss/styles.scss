@@ -43,16 +43,6 @@ body {
   }
 }
 
-// body {
-//   background-image: url(../img/home-bg-mob.png);
-//   background-size: 1440px 4629px;
-
-//   @include media(desktop) {
-//     background-image: url(../img/home-bg.png);
-//     background-position: top;
-//   }
-// }
-
 .container {
   max-width: $mobile;
   margin: 0 auto;
