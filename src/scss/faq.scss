@@ -85,6 +85,10 @@
   // opacity: 0;
   transition: 0.3s ease;
   margin-top: 0;
+
+  @include media(desktop) {
+    max-width: 100%;
+  }
 }
 
 .faq-answer.show {
@@ -99,4 +103,14 @@
 
 .toggle-button.rotated {
   transform: rotate(180deg);
+}
+
+.arrow-icon {
+  width: 18px;
+  height: 22px;
+
+  @include media(desktop) {
+    width: 35.6px;
+    height: 29px;
+  }
 }
