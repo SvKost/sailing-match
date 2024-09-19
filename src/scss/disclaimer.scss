@@ -1,5 +1,6 @@
 .disclaimer {
   position: relative;
+  scroll-margin-top: 120px;
 
   @include media(desktop) {
     padding-top: 218px;
