@@ -1,8 +1,10 @@
 .faq-section {
   margin-bottom: 80px;
   position: relative;
+  scroll-margin-top: -2170px;
 
   @include media(desktop) {
+    scroll-margin-top: -2060px;
     margin-bottom: 200px;
     padding-top: 180px;
   }
