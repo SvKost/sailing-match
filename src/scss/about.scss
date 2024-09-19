@@ -1,6 +1,11 @@
 .about-section {
   padding-bottom: 88px;
   position: relative;
+  scroll-margin-top: -150px;
+
+  @include media(desktop) {
+    scroll-margin-top: -50px;
+  }
 }
 
 .about-background {
