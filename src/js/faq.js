@@ -1,7 +1,7 @@
-document.querySelectorAll('.toggle-button').forEach(button => {
-  button.addEventListener('click', () => {
-    const listItem = button.closest('.faq-list-item');
-    const answer = listItem.querySelector('.faq-answer');
+document.querySelectorAll('.faq-list-item').forEach(item => {
+  item.addEventListener('click', () => {
+    const answer = item.querySelector('.faq-answer');
+    const button = item.querySelector('.toggle-button');
 
     answer.classList.toggle('show');
     button.classList.toggle('rotated');
